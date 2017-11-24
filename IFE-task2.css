@@ -1,0 +1,76 @@
+*{
+	font-family: "Microsoft Yahei";
+	margin: 0;
+	padding: 0;
+	border-style:solid;
+    border: 0;
+}
+body{
+	background-color: #DEDEDE;
+}
+.head .op-logo{
+     display: table-cell;
+    vertical-align: middle;
+    /*height: 65px;*/
+    margin-left: 35px;
+    width: 10px;
+    height: 20px;
+}
+.head .op-logo img{
+    margin-left: 35px;
+    cursor: pointer;
+    height: 70px;
+}
+.head{
+	background:  #333;
+	height: 70px;
+	display: table;
+	overflow: hidden;
+    width: 100%;
+    vertical-align: middle;
+    
+}
+. head .nav{
+    float: right;
+	margin-bottom: 0px;
+	margin-right: 0;
+    padding-right: 0;
+ position: absolute;
+ right: 50px;
+	
+}
+
+.head .nav li{
+    float: left;
+    line-height: 65px;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+
+.page{
+    margin:40px;
+    background: #fff;
+    box-shadow: 2px 2px 2px #848484;
+    padding: 20px;
+    line-height: 1.5;
+    border-style:solid;
+    border-width: 1px;
+}
+
+.page four th{
+	color: #fff;
+	background-color: #333;
+}
+.page tr:the last-child td{
+	background-color: #ccc;
+	font-weight: bold;
+}
+.five form{
+	text-align:center;
+}
+.five submit{
+	width: 100%;
+	height: 50px;
+	background-color: #3355D0;
+}
